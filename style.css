@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+.mainc {
+  margin-top: 10px;
+  padding: 30px;
+  background-color: rgb(189, 204, 211);
+  height: 100vh;
+  width: 100vw;
+
+  border: 1px solid blue;
+}
+.c2 {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+.e1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.btns button {
+  height: 30px;
+  width: 100px;
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+.e2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.tab1 .t1 {
+  background-color: rgb(189, 204, 211);
+}
+.tab2 .t1,
+.tab3 .t1 {
+  background-color: whitesmoke;
+}
+.t1 {
+  height: 3px;
+  width: 250px;
+  background-color: grey;
+}
+.depts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.dept {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+  height: 20px;
+  width: 90%;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: rgb(189, 204, 211);
+}
+.expand {
+  display: flex;
+  margin-left: 20px;
+}
+.a1 {
+  height: 50px;
+  width: 150px;
+  background-color: rgb(189, 204, 211);
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.clude {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.clude p {
+  margin-left: 20px;
+}
+.b1 {
+  position: relative;
+  right: 190px;
+  width: 100px;
+}
+.b2 {
+  position: relative;
+  right: 330px;
+  width: 100px;
+}
+.b3 {
+  position: relative;
+  right: 470px;
+  width: 100px;
+}
+.files {
+  position: relative;
+  right: 600px;
+}
+#expandmain {
+  display: none;
+}
+.expandp {
+  display: flex;
+}
+.expandp div {
+  height: 30px;
+  width: 150px;
+  background-color: rgb(189, 204, 211);
+  margin-left: 20px;
+}
+.pclude .name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 150px;
+  background-color: rgb(189, 204, 211);
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.pclude {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.pclude .b1 {
+  position: relative;
+  right: 120px;
+  width: 100px;
+}
+.pclude .b2 {
+  position: relative;
+  right: 230px;
+  width: 100px;
+}
+.pclude .b3 {
+  position: relative;
+  right: 330px;
+  width: 100px;
+}
+.pclude .files {
+  position: relative;
+  right: 400px;
+}
+.dept button {
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+#expandmainp {
+  display: none;
+}
